@@ -10,6 +10,9 @@
 ;la interrupción realiza el conteo descendente pero no muestra el cero. El código a un está en proceso!!
 ;se utiliza la técnica de multiplexación.
 
+;El archivo de simulación es CONTADOR_ASCENDENTE_INTRB0.sim1 se realiza con el software simulide.exe
+,que se encuentra en la carpeta SimulIDE_1.1.0-SR0_Win64
+
 		__CONFIG _XT_OSC & _WDTE_OFF & _PWRTE_ON & _CP_OFF & _LVP_OFF & _BOREN_OFF
 		LIST	P=16F877A
 		INCLUDE <P16F877A.INC>
